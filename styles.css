@@ -1,34 +1,42 @@
-
+*{
+    margin: 0;
+}
 
 .banner-container{
-    display: flex;
-    background-color:#e5547346;
-    padding: 150px;
+    background-color:rgba(229, 84, 115, 0.1);
+    display: flex;    
+    padding-top:50px ;
+    padding-bottom: 0;
+    padding-left:100px ;
+    padding-right: 100px;
     align-items: center;
-    max-height:  450px; 
+    gap: 70px;     
+}
+.text{
     
-    
+    margin-bottom: 100px;
 }
 .photo{
-    width: 450px;
-    
-    
-    
+    width: 370px;     
     
 }
 .btn{
+    margin-top: 20px;
     border-style: none;
     border: 0;
     padding: 15px;
     border-radius: 5px;
+    color: white;
     background-color:#e55473;
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
 .banner-description{
+    margin-top: 20px;
     font-family: sans-serif;
     font-size: 18px;
+
 }
 .banner-heading{
     font-family: sans-serif;
@@ -36,4 +44,155 @@
     font-weight: 800;
 
 }
-
+.featured-txt{
+    margin-top: 120px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.small-heading{
+    font-size: 28px;
+    font-weight: 800;
+}
+.small-description{
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.664);
+}
+.selection{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pick-img{
+    width: 250px;
+}
+.pick{
+    padding: 100px 30px 0px 30px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 150px 150px 0 0;
+}
+.pick2{
+    padding: 100px 30px 0px 30px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 150px 150px 0 0;
+}
+.pick3{
+    padding: 100px 30px 0px 30px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 150px 150px 0 0;
+}
+.selection-txt{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    gap: 230px;
+    text-decoration: underline;
+}
+.three-logo{
+    display: flex;
+    margin: 80px 190px;
+    padding:50px ;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.644);
+    background-color: #e554731a;
+    font-weight: bold;
+    gap: 60px;
+    border-radius: 10px;
+}
+.small-logo{
+    width: 50px;
+}
+.deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 130px;
+    background-color: rgba(229, 84, 115, 0.05);
+    
+}
+.h2{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.limited{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.644);
+}
+.deal-photo{
+    width: 250px;
+}
+.instagram{
+    text-align: center;
+    font-family: sans-serif;
+}
+.insta{
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+.insta-des{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.four-logo{
+    display: flex;
+    margin-top:25px;
+    justify-content: center;
+    gap: 18px;
+}
+.nice-flower{
+    width: 230px;
+}
+.latest-deal{
+    margin-right: 180px;
+    margin-left: 180px;
+    padding: 150px;
+    text-align: center;
+    background-image: url(/asset/Rectangle\ 9.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 95px;
+    border-radius: 10px; 
+    font-family: sans-serif;   
+}
+.very-small{
+    margin: 20px 0;
+    color: rgba(39, 39, 39, 0.6);
+}
+.enter-email{
+    margin-left: 30px;
+    padding: 18px 255px 18px 18px;
+    border-radius: 10px;
+    border: none;
+}
+.off{
+    color:rgba(229, 84, 115, 1) ;
+}
+.shop{
+    color: white;
+}
+footer{
+    margin-top: 150px;
+    padding: 150px;
+    text-align: center;
+    background-color:rgba(17, 16, 16, 1) ;
+    font-family: sans-serif;
+}
+.footer-des{
+    margin: 30px 0 35px 0;
+    color:rgba(255, 255, 255, 0.9) ;
+}
+.last{
+    font-size: 50px;
+}
+.reserved-rights{
+    color:rgba(255, 255, 255, 0.4) ;
+}
