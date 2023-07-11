@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+.header{
+    background-color:#e5547346;
+
+}
+.banner-container{
+    display: flex;
+}
